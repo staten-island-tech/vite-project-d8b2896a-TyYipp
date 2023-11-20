@@ -1,6 +1,4 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
 import { troops } from './counter.js'
 
 
@@ -22,21 +20,23 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-troops.forEach(troop  => {
+/* troops.forEach(troop  => {
   let card = document.querySelector('#app')
   
 	card.innerHTML = card.innerHTML + `
   <div>troop is ${troop.name}</div>
   `
-})
+}) */
 const DOMSelectors = {
   app: document.getElementById("app"),
 };
 
-
-    let newcard = 
+troops.forEach(troop  => {
+  
+  DOMSelectors.app.insertAdjacentHTML("afterbegin",
     `<div class="child"> 
-      <h2 class="text" id="card">${}</h2>
-    </div>`;
-
-    DOMSelectors.parent.insertAdjacentHTML("afterbegin", newcard);
+      <h2 class="text" id="card">hi im${troop.name}</h2>
+    </div>`
+);
+});
+    
