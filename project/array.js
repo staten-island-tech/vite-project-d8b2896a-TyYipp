@@ -1,7 +1,7 @@
 export const troops = [
   {
     name: 'barbarian',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/4/4e/Barbarian_info.png/revision/latest/scale-to-width-down/250?cb=20170927230429',
+    img: 'https://th.bing.com/th/id/OIP.ey9Hmh97zIRFbHtErV2NVQHaHa?rs=1&pid=ImgDetMain',
     type: 'ground',
     target: 'any',
     attack: 'melee',
@@ -9,7 +9,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'archer',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/3/34/Archer_info.png/revision/latest/scale-to-width-down/250?cb=20170927230509',
+    img: 'https://buy-clash.com/wp-content/uploads/2020/11/Sneaky_Archer_info-391x400.jpg',
     type: 'ground',
     target: 'any',
     attack: 'range',
@@ -17,7 +17,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'giant',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/3/35/Giant_info.png/revision/latest/scale-to-width-down/197?cb=20170927232347',
+    img: 'https://buy-clash.com/wp-content/uploads/2020/11/Giant_info.png',
     type: 'ground',
     target: 'defenses',
     attack: 'melee',
@@ -25,15 +25,15 @@ export const troops = [
     super: 'yes'
   },
   {name: 'goblin',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/f/fa/Goblin_info.png/revision/latest/scale-to-width-down/284?cb=20170927232755',
+    img: 'https://buy-clash.com/wp-content/uploads/2020/11/Goblin_info-455x400.png',
     type: 'ground',
     target: 'loot',
     attack: 'melee',
     elixir: 'normal',
     super: 'yes'
   },
-  {name: 'wall_breaker',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/7/70/Wall_Breaker_info.png/revision/latest/scale-to-width-down/223?cb=20170927230652',
+  {name: 'wall breaker',
+    img: 'https://vignette.wikia.nocookie.net/clashofclans/images/7/70/Wall_Breaker_info.png/revision/latest/scale-to-width-down/223?cb=20170927230652',
     type: 'ground',
     target: 'walls',
     attack: 'melee',
@@ -41,7 +41,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'balloon',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/2/2f/Balloon_info.png/revision/latest/scale-to-width-down/220?cb=20170927230730',
+    img: 'https://th.bing.com/th/id/OIP.oEdfcB_w4iGcn4d1NSFmBAHaGP?pid=ImgDet&w=197&h=165&c=7',
     type: 'air',
     target: 'defenses',
     attack: 'melee',
@@ -80,7 +80,7 @@ export const troops = [
     elixir: 'normal',
     super: 'no'
   },
-  {name: 'baby_dragon',
+  {name: 'baby dragon',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/4/44/Baby_Dragon_info.png/revision/latest/scale-to-width-down/250?cb=20180109183158',
     type: 'air',
     target: 'any',
@@ -96,7 +96,7 @@ export const troops = [
     elixir: 'normal',
     super: 'yes'
   },
-  {name: 'electro_dragon',
+  {name: 'electro dragon',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/0/00/Electro_Dragon_info.png/revision/latest/scale-to-width-down/227?cb=20180608130641',
     type: 'air',
     target: 'any',
@@ -112,7 +112,7 @@ export const troops = [
     elixir: 'normal',
     super: 'no'
   },
-  {name: 'dragon_rider',
+  {name: 'dragon rider',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/e/e0/Dragon_Rider_info.png/revision/latest/scale-to-width-down/450?cb=20210614072354',
     type: 'air',
     target: 'defenses',
@@ -120,8 +120,8 @@ export const troops = [
     elixir: 'normal',
     super: 'no'
   },
-  {name: 'electro_titan',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/1/14/Electro_Titan_info.png/revision/latest/scale-to-width-down/300?cb=20221010143225',
+  {name: 'electro titan',
+    img: '',
     type: 'ground',
     target: 'any',
     attack: 'ranged',
@@ -136,7 +136,7 @@ export const troops = [
     elixir: 'dark',
     super: 'yes'
   },
-  {name: 'hog_rider',
+  {name: 'hog rider',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hog_Rider_info.png/revision/latest/scale-to-width-down/215?cb=20170927231149',
     type: 'ground',
     target: 'defenses',
@@ -168,7 +168,7 @@ export const troops = [
     elixir: 'dark',
     super: 'yes'
   },
-  {name: 'lava_hound',
+  {name: 'lava hound',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/0/0a/Lava_Hound_info.png/revision/latest/scale-to-width-down/216?cb=20170927231353',
     type: 'air',
     target: 'air_defense',
@@ -184,7 +184,7 @@ export const troops = [
     elixir: 'dark',
     super: 'yes'
   },
-  {name: 'ice_golem',
+  {name: 'ice golem',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/1/14/Ice_Golem_info.png/revision/latest/scale-to-width-down/350?cb=20181208133316',
     type: 'ground',
     target: 'defenses',
@@ -200,7 +200,7 @@ export const troops = [
     elixir: 'dark',
     super: 'no'
   },
-  {name: 'apprentice_warden',
+  {name: 'apprentice warden',
     img: 'https://static.wikia.nocookie.net/clashofclans/images/2/27/Apprentice_Warden_info.png/revision/latest/scale-to-width-down/269?cb=20230611151053',
     type: 'ground',
     target: 'troop',

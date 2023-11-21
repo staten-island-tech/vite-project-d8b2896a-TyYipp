@@ -1,42 +1,24 @@
 import './style.css'
-import { troops } from './counter.js'
+import { troops } from './array.js'
 
-
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
-
-/* troops.forEach(troop  => {
-  let card = document.querySelector('#app')
-  
-	card.innerHTML = card.innerHTML + `
-  <div>troop is ${troop.name}</div>
-  `
-}) */
 const DOMSelectors = {
-  app: document.getElementById("app"),
-};
+  parent: document.getElementById("parent")
+}
 
-troops.forEach(troop  => {
-  
-  DOMSelectors.app.insertAdjacentHTML("afterbegin",
-    `<div class="child"> 
-      <h2 class="text" id="card">hi im${troop.name}</h2>
-    </div>`
-);
-});
+ troops.forEach(troop  => {
+ 
+	 DOMSelectors.parent.insertAdjacentHTML('afterbegin',  `
+  <div id="child">
+  <h2 id="text">Name: ${troop.name}</h2>
+  <img src="${troop.img}" alt="" class="img">
+  <h3 id="text">Type: ${troop.type}</h3>
+  <h4 id="text">Target: ${troop.target}</h4>
+  <h5 id="text">Attack: ${troop.attack}</h5>
+  <h6 id="text">Elixir: ${troop.elixir}</h6>
+  <h7 id="text">Super: ${troop.super}</h7>
+  </div>
+  `);
+}) 
+
+
     
