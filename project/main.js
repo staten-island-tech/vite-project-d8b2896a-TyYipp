@@ -19,6 +19,7 @@ const DOMSelectors = {
   </div>
   `);
 }) 
+event.preventDefault();
 
 
     

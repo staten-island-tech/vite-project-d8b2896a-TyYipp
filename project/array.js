@@ -49,7 +49,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'wizard',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/1/14/Wizard_info.png/revision/latest/scale-to-width-down/250?cb=20170927230801',
+    img: 'https://vignette2.wikia.nocookie.net/clashofclans/images/1/14/Wizard_info.png/revision/latest?cb=20161219220712',
     type: 'ground',
     target: 'any',
     attack: 'ranged',
@@ -57,7 +57,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'healer',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/c/ca/Healer_info.png/revision/latest/scale-to-width-down/224?cb=20170927230835',
+    img: 'https://www.pngkit.com/png/detail/362-3624065_coc-troops-png.png',
     type: 'air',
     target: 'troop',
     attack: 'ranged',
@@ -65,7 +65,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'dragon',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/2/28/Dragon_info.png/revision/latest/scale-to-width-down/284?cb=20170927230914',
+    img: 'https://i.pinimg.com/736x/6a/84/8d/6a848d3a0726f0bfcdf615718b80ced4.jpg',
     type: 'air',
     target: 'any',
     attack: 'melee',
@@ -73,7 +73,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'peaka',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/5/54/P.E.K.K.A_info.png/revision/latest/scale-to-width-down/250?cb=20170927230947',
+    img: 'https://th.bing.com/th/id/R.49a4d1c62e2c91cf3412f1f31cb96197?rik=%2fJP9vuwF7jrGFg&riu=http%3a%2f%2fpm1.narvii.com%2f6348%2f730a64ade5272bab87096008b073198047b5ae78_hq.jpg&ehk=qGyn6M2wSg1Ih6x%2bg5oZp2c%2fAJgYbvYaxxqk0FGqMjw%3d&risl=&pid=ImgRaw&r=0',
     type: 'ground',
     target: 'any',
     attack: 'melee',
@@ -81,7 +81,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'baby dragon',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/4/44/Baby_Dragon_info.png/revision/latest/scale-to-width-down/250?cb=20180109183158',
+    img: 'https://wallpapercave.com/wp/wp3889771.png',
     type: 'air',
     target: 'any',
     attack: 'ranged',
@@ -89,7 +89,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'miner',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/5/56/Miner_info.png/revision/latest/scale-to-width-down/264?cb=20170927231038',
+    img: 'https://th.bing.com/th/id/OIP.HngOjaTeF1nVJRKzFOxKZAHaHA?rs=1&pid=ImgDetMain',
     type: 'ground',
     target: 'any',
     attack: 'melee',
@@ -97,7 +97,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'electro dragon',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/0/00/Electro_Dragon_info.png/revision/latest/scale-to-width-down/227?cb=20180608130641',
+    img: 'https://th.bing.com/th/id/OIP.90qcvwSziHzN_5ZPxMn4IwHaIK?rs=1&pid=ImgDetMain',
     type: 'air',
     target: 'any',
     attack: 'ranged',
@@ -105,7 +105,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'yeti',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/e/e2/Yeti_info.png/revision/latest/scale-to-width-down/250?cb=20191208082207',
+    img: 'https://www.clashchamps.com/wp-content/uploads/2019/10/Yeti_render_002-1536x1536.png',
     type: 'ground',
     target: 'defenses',
     attack: 'melee',
@@ -113,7 +113,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'dragon rider',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/e/e0/Dragon_Rider_info.png/revision/latest/scale-to-width-down/450?cb=20210614072354',
+    img: 'https://th.bing.com/th/id/OIP.jUI0OrI504tk4EJtVT6pnQHaHa?rs=1&pid=ImgDetMain',
     type: 'air',
     target: 'defenses',
     attack: 'melee',
@@ -121,7 +121,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'electro titan',
-    img: '',
+    img: 'https://th.bing.com/th/id/OIP.i6IHcFclpP5pM2aCfQycAQHaIS?rs=1&pid=ImgDetMain',
     type: 'ground',
     target: 'any',
     attack: 'ranged',
@@ -129,7 +129,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'minion',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/a/a4/Minion_info.png/revision/latest/scale-to-width-down/263?cb=20170927231119',
+    img: 'https://th.bing.com/th/id/OIP.-iVJVuCcF6rnzY36M94ESgHaDu?rs=1&pid=ImgDetMain',
     type: 'air',
     target: 'any',
     attack: 'ranged',
@@ -137,7 +137,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'hog rider',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hog_Rider_info.png/revision/latest/scale-to-width-down/215?cb=20170927231149',
+    img: 'https://th.bing.com/th/id/R.6cbb01214a5e2b57e3f03b60f6e6b38b?rik=S9eEO0bOLbU7ZQ&pid=ImgRaw&r=0',
     type: 'ground',
     target: 'defenses',
     attack: 'melee',
@@ -145,7 +145,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'valkyrie',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/7/7d/Valkyrie_info.png/revision/latest/scale-to-width-down/219?cb=20170927231228',
+    img: 'https://th.bing.com/th/id/R.b1952b453363f34075e08ade0527704f?rik=%2f0RC6GbfQLGtGQ&pid=ImgRaw&r=0',
     type: 'ground',
     target: 'any',
     attack: 'melee',
@@ -153,7 +153,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'golem',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/c/c2/Golem_info.png/revision/latest/scale-to-width-down/289?cb=20170927231256',
+    img: 'https://th.bing.com/th/id/OIP.C8PIvykYzCY9MsekJPvKIgHaGZ?rs=1&pid=ImgDetMain',
     type: 'ground',
     target: 'defenses',
     attack: 'melee',
@@ -161,7 +161,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'witch',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/4/4a/Witch_info.png/revision/latest/scale-to-width-down/203?cb=20170927231327',
+    img: 'https://th.bing.com/th/id/OIP.TG1gGv3qBsxBqLwdy6NLCAHaJI?rs=1&pid=ImgDetMain',
     type: 'ground',
     target: 'any',
     attack: 'ranged',
@@ -169,7 +169,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'lava hound',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/0/0a/Lava_Hound_info.png/revision/latest/scale-to-width-down/216?cb=20170927231353',
+    img: 'https://th.bing.com/th/id/OIP.hWDOXVhE3cxYlRUtplIL4gAAAA?rs=1&pid=ImgDetMain',
     type: 'air',
     target: 'air_defense',
     attack: 'melee',
@@ -177,7 +177,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'bowler',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/d/da/Bowler_info.png/revision/latest/scale-to-width-down/251?cb=20170927231431',
+    img: 'https://th.bing.com/th/id/R.6224433181264fd01214a6cc474b02c0?rik=tcMEwYVQlnxbkQ&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2fclashofclans%2fimages%2fd%2fda%2fBowler_info.png%2frevision%2flatest%3fcb%3d20160321140921&ehk=M8PwTN6xk%2f88aQpIoyx6Mbaxkb%2bTjhnFRm%2fC13vNUpk%3d&risl=&pid=ImgRaw&r=0',
     type: 'ground',
     target: 'ranged',
     attack: 'any',
@@ -185,7 +185,7 @@ export const troops = [
     super: 'yes'
   },
   {name: 'ice golem',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/1/14/Ice_Golem_info.png/revision/latest/scale-to-width-down/350?cb=20181208133316',
+    img: 'https://vignette.wikia.nocookie.net/clashofclans/images/1/14/Ice_Golem_info.png/revision/latest?cb=20181208133316',
     type: 'ground',
     target: 'defenses',
     attack: 'melee',
@@ -193,7 +193,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'headhunter',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/d/dd/Headhunter_info.png/revision/latest/scale-to-width-down/300?cb=20200621142416',
+    img: 'https://www.clashchamps.com/wp-content/uploads/2020/06/HeadHunter_InfoScreen-1024x1024.png',
     type: 'ground',
     target: 'heros',
     attack: 'ranged',
@@ -201,7 +201,7 @@ export const troops = [
     super: 'no'
   },
   {name: 'apprentice warden',
-    img: 'https://static.wikia.nocookie.net/clashofclans/images/2/27/Apprentice_Warden_info.png/revision/latest/scale-to-width-down/269?cb=20230611151053',
+    img: 'https://th.bing.com/th/id/OIP.6ybC44sTMo33ZrTl0lN3IQAAAA?rs=1&pid=ImgDetMain',
     type: 'ground',
     target: 'troop',
     attack: 'ranged',
