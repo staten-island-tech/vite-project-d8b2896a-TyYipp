@@ -85,12 +85,12 @@ html,
     margin-top: 20px; 
   }
   
-  #btn {
+  .btn {
     background-color: lightcoral;
     padding: 5px 10px;
     border-radius: 5px;
   }
-  #btn:hover {
+  .btn:hover {
     background-color: darkred;
   }
 
