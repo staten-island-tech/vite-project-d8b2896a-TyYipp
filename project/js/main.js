@@ -7,33 +7,85 @@ const DOMSelectors = {
   theme: document.getElementById("theme"),
   fruit: document.getElementById("fruit"),
   veggie: document.getElementById("veggie"),
-  protien: document.getElementById("protien"),
+  protein: document.getElementById("protein"),
   dairy: document.getElementById("dairy"),
   grain: document.getElementById("grain"),
+  home: document.getElementById("home"),
 };
 
 
-foods.forEach((food) => {
-  let namef = food.name;
-  let imgf = food.img;
-  let classf = food.class;
-  const all = `
-    <div id="child">
-      <h2 id="text">Name: ${namef}</h2>
-      <img src="${imgf}" alt="" class="img">
-      <h3 id="text">Type: ${classf}</h3>
-    </div>
-  `;
-  DOMSelectors.parent.insertAdjacentHTML('afterbegin', all);
+function insertCards(foodArray) {
+  DOMSelectors.parent.innerHTML = '';
+
+
+  foodArray.forEach((food) => {
+    let namef = food.name;
+    let imgf = food.img;
+    let classf = food.class;
+    const card = `
+      <div id="child">
+        <h2 id="text">Name: ${namef}</h2>
+        <img src="${imgf}" alt="" class="img">
+        <h3 id="text">Type: ${classf}</h3>
+      </div>
+    `;
+    DOMSelectors.parent.insertAdjacentHTML('beforeend', card);
+  });
+}
+
+
+let buttons = document.querySelectorAll('.btn');
+buttons.forEach((btn) =>
+  btn.addEventListener('click', function (event) {
+    event.preventDefault();
+    let type = btn.textContent.toLowerCase();
+    let newArr = foods.filter((food) => food.class === type);
+    insertCards(newArr);
+  })
+);
+insertCards(foods);
+
+
+function toggleTheme() {
+  if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  } else {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  }
+}
+
+
+DOMSelectors.theme.addEventListener("click", function (event) {
+  event.preventDefault();
+  toggleTheme();
 });
 
 
 
+DOMSelectors.home.addEventListener("click", function (event) {
+  event.preventDefault();
+  all();
+})
+function all() {
+  DOMSelectors.parent.innerHTML = '';
+  foods.forEach((food) => {
+    let namef = food.name;
+    let imgf = food.img;
+    let classf = food.class;
+    const home = `
+      <div id="child">
+        <h2 id="text">Name: ${namef}</h2>
+        <img src="${imgf}" alt="" class="img">
+        <h3 id="text">Type: ${classf}</h3>
+      </div>
+    `;
+  DOMSelectors.parent.insertAdjacentHTML('beforeend', home);
+});
+}
 
-
-
-
-
+/*
 DOMSelectors.fruit.addEventListener("click", function (event) {
   event.preventDefault();
   filterfruit();
@@ -196,19 +248,4 @@ function filterdairy() {
 
     DOMSelectors.parent.insertAdjacentHTML('beforeend', dairyz);
   });
-}
-
-
-DOMSelectors.theme.addEventListener("click", function () {
-  if (document.body.classList.contains("cool")) {
-    document.body.classList.add("warm");
-    document.body.classList.remove("cool");
-  } else {
-    document.body.classList.add("cool");
-    document.body.classList.remove("warm");
-  }
-});
-
-
-
-    
+} */
